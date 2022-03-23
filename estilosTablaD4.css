@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* //////////////////// TABLA DE POSICIONES //////////////////////*/
+
+.fondo {
+    background-image: url("img/fondosprueba/4.png");
+    background-position: left;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: 78%;
+}
+
+.titulo-torneo {
+    color: #ffd028;
+    font-family: 'Faster One', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0%;
+    letter-spacing: 4px;
+    margin-left: 50px;
+}
+
+.subtitulo {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 0%;
+    letter-spacing: 4px;
+    margin-left: 59px;
+}
+
+.grupo {
+    color: transparent;
+    font-family: 'Bebas Neue';
+    font-weight: lighter;
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin: 0%;
+    margin-left: 75px;
+    margin-top: 3px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(176, 201, 199);
+}
+
+img{
+    float: right;
+    margin-right: 420px;
+    margin-top: 58px;
+    width: 350px;
+    filter: brightness(130%);
+}
+
+.encabezado {
+    filter: opacity(0.8);
+    background: linear-gradient(90deg, rgb(1,51,48,1) 0%, rgb(1, 139, 135) 150%) ;
+    color: #ffd028
+}
+
+table{
+    margin-left: 65px;
+    border-spacing: 10px;
+    font-family: 'Russo One', sans-serif;
+    margin-top: -705px;
+    border-collapse: separate;
+}
+
+th {
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    filter: brightness(100%);
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.fondito {
+    background: linear-gradient(90deg, black, transparent 20%);
+    border-radius: 30px;
+}
+
+td{
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    filter: brightness(100%);
+}
+  

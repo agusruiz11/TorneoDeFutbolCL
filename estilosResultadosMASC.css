@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kelly+Slab&display=swap');
+
+.caja-resultados {
+    background-image: url("img/fondo.jpg");
+    background-position: bottom;
+    height: 90vh;
+}
+
+.titulo-fixture {
+    color: black;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Faster One', cursive;
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+
+.subtitulo {
+        color: white;
+        text-align: center;
+        font-family: 'Faster One', cursive;
+        font-size: 3rem;
+        letter-spacing: 2px;
+}
+
+.caja-titulos {
+    padding-top: 10px;
+    /* padding-bottom: 30px; */
+}
+
+.texto-fecha {
+    color: #ffd028;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;;
+    padding-bottom: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+.linea {
+    border-bottom: 1px solid white;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.separacion {
+    color: rgb(228, 198, 68);
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.content-resultado {
+    letter-spacing: 5px;
+    display: flex;
+    width: 37%;
+    text-align: center;
+    margin: auto;
+    align-items: center; 
+    filter: opacity(0.8);
+    background: linear-gradient(90deg , rgb(1, 139, 135) 0%,  rgb(1,51,48,1) 100%) ;
+    margin-top: 30px;
+    border-radius: 10px 100px / 120px;
+}
+
+
+.nombre {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    letter-spacing: 3.5px;
+    font-size: 30px;
+    width: 40%;
+    }
+
+
+.resultado {
+    color: rgb(228, 198, 68);
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    letter-spacing: 2px;
+    width: 10%;
+    text-align: center;
+
+}
+

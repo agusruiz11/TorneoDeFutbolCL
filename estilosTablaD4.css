@@ -39,14 +39,14 @@
 .grupo {
     color: transparent;
     font-family: 'Bebas Neue';
-    font-weight: lighter;
+    /* font-weight: lighter; */
     font-size: 50px;
     letter-spacing: 7px;
     margin: 0%;
     margin-left: 75px;
     margin-top: 3px;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(176, 201, 199);
+    -webkit-text-stroke-color: rgb(219, 39, 39);
 }
 
 img{
